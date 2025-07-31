@@ -1,40 +1,44 @@
-## 🚫 NoMoreChanges for Eclipse
+# 🚫 NoMoreChanges: An AI-Powered Commit Message Generator Plugin for the Eclipse IDE
 
-Tired of writing 'bug fixes' or 'changes' for your commits? **NoMoreChanges** is an intelligent Eclipse plugin designed to end that habit. It seamlessly integrates into your workflow by automatically generating a clear and descriptive commit message for you when you click the **Commit** button in the Git Staging view.
+Supercharge your development workflow with **NoMoreChanges**, a cutting-edge **Eclipse Plugin** that leverages the power of **Generative AI** to automate commit message writing. Tired of generic commits? This intelligent developer tool integrates directly into the **Eclipse IDE** and uses **Artificial Intelligence** to analyze your staged changes and generate precise, descriptive commit messages instantly.
 
-It analyzes your staged code to understand its purpose, helping you maintain a clean, understandable project history with zero extra clicks.
+Boost your productivity, enforce high-quality version control standards, and let this smart **AI assistant** handle the descriptive work, so you can focus on coding.
 
 ---
-## ⚙️ Features
+## 🚀 Key Features & AI Capabilities
 
-* **Automatic Generation on Commit**: No extra buttons to push. Simply click the standard **Commit** button in the Git Staging view, and a descriptive message is instantly generated and populated for you.
-* **Context-Aware Analysis**: Intelligently analyzes code diffs (added, modified, and deleted lines) to understand the *intent* behind your changes.
-* **Manual Refresh**: If you stage or unstage files, simply use the new **Refresh** button in the Staging view to ensure the AI has the latest context before you commit.
-* **Configurable API Key**: Easily add your OpenAI API key through a dedicated menu in Eclipse's preferences.
+* **Zero-Touch AI Commit Generation**: Experience true workflow automation. This plugin's core feature is its ability to generate a commit message automatically when you click the standard **Commit** button in the **Eclipse Git Staging (EGit)** view. No extra clicks, no context switching—just seamless **AI-powered** assistance.
+
+* **Intelligent Diff Analysis**: Powered by advanced machine learning models, the plugin performs a deep, context-aware analysis of your `git diff`. It understands the semantic intent behind your added, modified, and deleted lines of code to produce a summary that truly reflects the work done.
+
+* **Seamless EGit Integration**: Built exclusively for the **Eclipse IDE**, NoMoreChanges feels like a native feature. It respects the standard Eclipse workflow, including using the "Refresh" button in the Staging view to re-index your changes for the most accurate **AI analysis**.
+
+* **Powered by OpenAI**: Leverage a state-of-the-art language model for top-tier message generation. Simply configure your **OpenAI API key** in the Eclipse preferences to unlock the full potential of this **generative AI plugin**.
 
 ---
 ## 🔑 Requirements & Configuration
 
-Before you can use the plugin, you must configure it with your OpenAI API key.
+To leverage the power of OpenAI's cutting-edge language models, you must first configure the plugin:
 
 1.  Obtain an **API key** from your [OpenAI account](https://platform.openai.com/api-keys).
-2.  In Eclipse, navigate to `Window` > `Preferences`.
-3.  Find and select the **NoMoreChanges** section in the preferences menu.
-4.  Paste your API key into the designated field and save.
+2.  In the **Eclipse IDE**, navigate to `Window` > `Preferences`.
+3.  Find and select the **NoMoreChanges** section.
+4.  Paste your API key into the designated field to activate the **AI generator**.
 
 ---
-## 🛠️ Installation (via Dropins)
+## 🛠️ Installation for Eclipse IDE
 
-As this is a custom plugin, installation is done by placing the plugin file directly into your Eclipse installation directory.
+As a custom Eclipse plugin, installation is handled via the `dropins` directory:
 
-1.  Download the latest `NoMoreChanges_x.x.x.jar` file from the [Releases page](https://github.com/ckmanees/no-more-changes/releases).
+1.  Download the latest `NoMoreChanges_x.x.x.jar` from our [GitHub Releases](https://github.com/ckmanees/no-more-changes/releases).
 2.  Locate your Eclipse installation folder.
 3.  Place the downloaded `.jar` file inside the `eclipse/dropins/` subdirectory.
-4.  **Restart Eclipse** completely for the plugin to be loaded.
+4.  **Restart your Eclipse IDE** to load the AI commit message plugin.
 
 ---
-## 🤝 Contributing
+## 🤝 Contributing to the AI Revolution
 
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+This is an open-source project aimed at enhancing developer productivity through **Artificial Intelligence**. Contributions are welcome! Whether it's improving the AI integration, fixing bugs, or suggesting new features, feel free to fork the repository and submit a pull request.
 
-If you'd like to help improve **NoMoreChanges**, please feel free to fork the repository, make your changes, and submit a pull request. You can also open an issue to report bugs or suggest new features.
+---
+**Tags**: `eclipse plugin`, `ai`, `artificial intelligence`, `commit message`, `git`, `generator`, `egit`, `openai`, `gpt`, `developer tool`, `java`, `automation`, `machine learning`, `generative ai`, `workflow`, `productivity`
