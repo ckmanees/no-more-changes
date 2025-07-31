@@ -1,8 +1,8 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Plugin
-Bundle-SymbolicName: com.anees.nomorechanges.plugin;singleton:=true
-Bundle-Version: 1.0.1
+Bundle-SymbolicName: NoMoreChanges;singleton:=true
+Bundle-Version: 1.0.0
 Bundle-Activator: com.anees.nomorechanges.plugin.Activator
 Bundle-ClassPath: .,
  lib/jackson-annotations-2.18.0.jar,

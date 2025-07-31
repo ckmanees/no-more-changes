@@ -4,11 +4,11 @@ import org.eclipse.jface.preference.IPreferenceStore;
 import org.eclipse.ui.plugin.AbstractUIPlugin;
 import org.osgi.framework.BundleContext;
 
-import com.anees.nomorechanges.plugin.preferences.OpenAIPreferencePage;
+import com.anees.nomorechanges.plugin.preferences.PreferencePage;
 
 public class Activator extends AbstractUIPlugin {
 
-    public static final String PLUGIN_ID = "com.anees.nomorechanges.plugin";
+    public static final String PLUGIN_ID = "NoMoreChanges";
     private static Activator plugin;
 
     @Override
@@ -33,6 +33,6 @@ public class Activator extends AbstractUIPlugin {
     }
 
     public static String getOpenAIApiKey() {
-        return getDefault().getPreferenceStore().getString(OpenAIPreferencePage.OPENAI_API_KEY);
+        return getDefault().getPreferenceStore().getString(PreferencePage.OPENAI_API_KEY);
     }
 }

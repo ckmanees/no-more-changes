@@ -4,9 +4,9 @@
 
    <extension point="org.eclipse.ui.preferencePages">
       <page
-            class="com.anees.nomorechanges.plugin.preferences.OpenAIPreferencePage"
-            id="com.anees.nomorechanges.plugin.preferences.OpenAIPreferencePage"
-            name="AI Commit Message Preferences"/>
+            class="com.anees.nomorechanges.plugin.preferences.PreferencePage"
+            id="com.anees.nomorechanges.plugin.preferences.PreferencePage"
+            name="NoMoreChanges"/>
    </extension>
 
    <extension

@@ -7,11 +7,11 @@ import org.eclipse.ui.IWorkbenchPreferencePage;
 
 import com.anees.nomorechanges.plugin.Activator;
 
-public class OpenAIPreferencePage extends FieldEditorPreferencePage implements IWorkbenchPreferencePage {
+public class PreferencePage extends FieldEditorPreferencePage implements IWorkbenchPreferencePage {
 
     public static final String OPENAI_API_KEY = "openai.api.key";
 
-    public OpenAIPreferencePage() {
+    public PreferencePage() {
         super(GRID);
     }
 
