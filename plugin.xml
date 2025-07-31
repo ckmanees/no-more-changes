@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension point="org.eclipse.ui.preferencePages">
+      <page
+            class="com.anees.nomorechanges.plugin.preferences.OpenAIPreferencePage"
+            id="com.anees.nomorechanges.plugin.preferences.OpenAIPreferencePage"
+            name="AI Commit Message Preferences"/>
+   </extension>
+
+   <extension
+         point="org.eclipse.egit.ui.commitMessageProvider">
+      <provider
+            class="com.anees.nomorechanges.plugin.AICommitMessageProvider"
+            name="AI Generated Commit Message">
+      </provider>
+   </extension>
+
+   <extension point="org.eclipse.ui.menus">
+      <menuContribution
+            locationURI="toolbar:org.eclipse.egit.ui.StagingView">
+         <command
+               commandId="com.anees.nomorechanges.plugin.generateCommitMessage"
+               icon="icons/refresh.png"
+               label="Generate AI Commit Message"
+               style="push"
+               tooltip="Regenerate the commit message based on currently staged files">
+         </command>
+      </menuContribution>
+   </extension>
+
+   <extension point="org.eclipse.ui.commands">
+      <command
+            id="com.anees.nomorechanges.plugin.generateCommitMessage"
+            name="Generate AI Commit Message">
+      </command>
+   </extension>
+
+   <extension point="org.eclipse.ui.handlers">
+      <handler
+            class="com.anees.nomorechanges.plugin.GenerateAiMessageHandler"
+            commandId="com.anees.nomorechanges.plugin.generateCommitMessage">
+      </handler>
+   </extension>
+
+</plugin>

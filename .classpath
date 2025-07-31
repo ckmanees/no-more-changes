@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="lib" path="lib/netty-codec-dns-4.1.115.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/spring-ai-template-st-1.0.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/micrometer-commons-1.15.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/netty-codec-http2-4.1.115.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/netty-resolver-dns-4.1.115.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/netty-buffer-4.1.115.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/netty-codec-4.1.115.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/netty-common-4.1.115.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/netty-resolver-4.1.115.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jsonschema-generator-4.37.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/logback-classic-1.5.18.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/micrometer-core-1.15.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/netty-codec-http-4.1.115.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/netty-handler-4.1.115.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/netty-transport-4.1.115.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/netty-transport-native-unix-common-4.1.115.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/reactor-core-3.7.7.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/reactor-netty-core-1.2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/reactor-netty-http-1.2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/spring-expression-6.2.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/spring-jcl-6.2.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/log4j-api-2.24.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/log4j-to-slf4j-2.24.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/slf4j-api-2.0.17.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/reactive-streams-1.0.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/spring-ai-retry-1.0.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/spring-webflux-6.2.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/spring-ai-commons-1.0.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/spring-ai-model-1.0.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/spring-ai-client-chat-1.0.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/spring-ai-openai-1.0.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/spring-aop-6.2.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/spring-beans-6.2.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/spring-context-6.2.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/spring-core-6.2.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/spring-web-6.2.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jackson-annotations-2.18.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jackson-core-2.18.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jackson-databind-2.18.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/spring-retry-2.0.12.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/micrometer-observation-1.15.1.jar"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
